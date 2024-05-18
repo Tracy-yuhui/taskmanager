@@ -1,0 +1,4 @@
+Django>=3.2,<4
+djangorestframework
+celery
+psycopg2-binary

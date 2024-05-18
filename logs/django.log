@@ -1,0 +1,361 @@
+DEBUG 2024-05-17 17:20:30,808 base Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/core/handlers/base.py", line 167, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/core/handlers/base.py", line 290, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/urls/resolvers.py", line 589, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLResolver <module 'tasks.urls' from '/home/taskmanager/tasks/urls.py'> (None:None) 'api/'>]], 'path': ''}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/template/base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/template/base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin/'>
+DEBUG 2024-05-17 17:20:30,809 base Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/core/handlers/base.py", line 167, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/core/handlers/base.py", line 290, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/urls/resolvers.py", line 589, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLResolver <module 'tasks.urls' from '/home/taskmanager/tasks/urls.py'> (None:None) 'api/'>]], 'path': ''}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/template/base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/template/base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'tasks.urls' from '/home/taskmanager/tasks/urls.py'> (None:None) 'api/'>
+WARNING 2024-05-17 17:20:30,810 log Not Found: /
+DEBUG 2024-05-17 17:20:32,290 base Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/core/handlers/base.py", line 167, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/core/handlers/base.py", line 290, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/urls/resolvers.py", line 589, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLResolver <module 'tasks.urls' from '/home/taskmanager/tasks/urls.py'> (None:None) 'api/'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/template/base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/template/base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin/'>
+DEBUG 2024-05-17 17:20:32,291 base Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/core/handlers/base.py", line 167, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/core/handlers/base.py", line 290, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/urls/resolvers.py", line 589, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLResolver <module 'tasks.urls' from '/home/taskmanager/tasks/urls.py'> (None:None) 'api/'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/template/base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/template/base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'tasks.urls' from '/home/taskmanager/tasks/urls.py'> (None:None) 'api/'>
+WARNING 2024-05-17 17:20:32,292 log Not Found: /favicon.ico
+ERROR 2024-05-17 17:21:52,178 log Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/core/handlers/base.py", line 167, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/core/handlers/base.py", line 290, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/urls/resolvers.py", line 560, in resolve
+    for pattern in self.url_patterns:
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/urls/resolvers.py", line 602, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/urls/resolvers.py", line 595, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib64/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/taskmanager/taskmanager/urls.py", line 10, in <module>
+    path('api/', include('api.urls')),  # 假设你的API在一个叫做`api`的Django应用中
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib64/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'api'
+ERROR 2024-05-17 17:22:04,707 log Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/core/handlers/base.py", line 167, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/core/handlers/base.py", line 290, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/urls/resolvers.py", line 560, in resolve
+    for pattern in self.url_patterns:
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/urls/resolvers.py", line 602, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/urls/resolvers.py", line 595, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib64/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/taskmanager/taskmanager/urls.py", line 10, in <module>
+    path('api/', include('api.urls')),  # 假设你的API在一个叫做`api`的Django应用中
+  File "/home/taskmanager/venv/lib64/python3.6/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib64/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'api'
+WARNING 2024-05-17 17:37:53,286 log Not Found: /identity
+WARNING 2024-05-17 17:54:12,926 log Not Found: /cgi-bin/luci/;stok=/locale
+WARNING 2024-05-17 18:19:09,500 log Not Found: /cgi-bin/luci/;stok=/locale
+WARNING 2024-05-17 19:31:39,994 log Not Found: /cgi-bin/luci/;stok=/locale
+WARNING 2024-05-17 20:05:48,953 log Not Found: /.env
+WARNING 2024-05-17 20:05:49,741 log Forbidden (CSRF cookie not set.): /
+WARNING 2024-05-17 20:19:58,453 log Not Found: /cgi-bin/luci/;stok=/locale
+WARNING 2024-05-17 22:07:23,244 log Not Found: /.env
+WARNING 2024-05-17 22:07:28,464 log Not Found: /.env
+WARNING 2024-05-17 22:27:46,269 log Not Found: /.env
+WARNING 2024-05-17 23:05:39,767 log Not Found: /cgi-bin/luci/;stok=/locale
+WARNING 2024-05-18 00:11:14,974 log Not Found: /favicon.ico
+WARNING 2024-05-18 00:29:58,049 log Not Found: /.env
+WARNING 2024-05-18 00:59:35,754 log Not Found: /cgi-bin/luci/;stok=/locale
+WARNING 2024-05-18 01:01:39,673 log Not Found: /cgi-bin/luci/;stok=/locale
+WARNING 2024-05-18 01:34:17,017 log Not Found: /favicon.ico
+WARNING 2024-05-18 03:39:22,287 log Not Found: /cgi-bin/luci/;stok=/locale
+ERROR 2024-05-18 06:08:38,767 exception Invalid HTTP_HOST header: 'passport.baidu.com'. You may need to add 'passport.baidu.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 06:08:38,767 log Bad Request: /
+ERROR 2024-05-18 06:17:54,436 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 06:17:54,437 log Bad Request: /
+ERROR 2024-05-18 06:17:54,487 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 06:17:54,487 log Bad Request: /favicon.ico
+ERROR 2024-05-18 06:17:59,074 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 06:17:59,074 log Bad Request: /
+ERROR 2024-05-18 06:17:59,128 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 06:17:59,129 log Bad Request: /favicon.ico
+ERROR 2024-05-18 06:17:59,777 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 06:17:59,777 log Bad Request: /
+ERROR 2024-05-18 06:17:59,820 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 06:17:59,820 log Bad Request: /favicon.ico
+ERROR 2024-05-18 06:18:00,259 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 06:18:00,260 log Bad Request: /
+ERROR 2024-05-18 06:18:00,310 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 06:18:00,310 log Bad Request: /favicon.ico
+ERROR 2024-05-18 06:18:00,596 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 06:18:00,597 log Bad Request: /
+ERROR 2024-05-18 06:18:00,640 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 06:18:00,641 log Bad Request: /favicon.ico
+ERROR 2024-05-18 06:18:01,247 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 06:18:01,248 log Bad Request: /
+ERROR 2024-05-18 06:18:01,299 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 06:18:01,299 log Bad Request: /favicon.ico
+ERROR 2024-05-18 06:18:01,461 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 06:18:01,461 log Bad Request: /
+ERROR 2024-05-18 06:18:01,507 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 06:18:01,508 log Bad Request: /favicon.ico
+ERROR 2024-05-18 06:18:01,898 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 06:18:01,899 log Bad Request: /
+ERROR 2024-05-18 06:18:01,949 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 06:18:01,950 log Bad Request: /favicon.ico
+ERROR 2024-05-18 06:18:52,052 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 06:18:52,053 log Bad Request: /
+ERROR 2024-05-18 06:18:52,105 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 06:18:52,106 log Bad Request: /favicon.ico
+ERROR 2024-05-18 06:19:01,203 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 06:19:01,203 log Bad Request: /
+ERROR 2024-05-18 06:19:01,256 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 06:19:01,257 log Bad Request: /favicon.ico
+WARNING 2024-05-18 06:31:36,415 log Not Found: /cgi-bin/luci/;stok=/locale
+ERROR 2024-05-18 06:48:11,117 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 06:48:11,558 log Bad Request: /
+ERROR 2024-05-18 06:48:11,954 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 06:48:11,990 log Bad Request: /favicon.ico
+ERROR 2024-05-18 06:48:19,062 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 06:48:19,062 log Bad Request: /
+ERROR 2024-05-18 06:48:19,927 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 06:48:19,962 log Bad Request: /favicon.ico
+ERROR 2024-05-18 06:48:56,765 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 06:48:56,765 log Bad Request: /
+ERROR 2024-05-18 06:48:57,147 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 06:48:57,147 log Bad Request: /favicon.ico
+ERROR 2024-05-18 06:49:17,928 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 06:49:17,929 log Bad Request: /
+ERROR 2024-05-18 06:49:18,312 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 06:49:18,312 log Bad Request: /favicon.ico
+ERROR 2024-05-18 06:49:26,844 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 06:49:26,845 log Bad Request: /
+ERROR 2024-05-18 06:49:27,701 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 06:49:27,701 log Bad Request: /favicon.ico
+WARNING 2024-05-18 06:49:53,350 log Not Found: /favicon.ico
+ERROR 2024-05-18 06:53:37,508 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 06:53:37,508 log Bad Request: /
+ERROR 2024-05-18 06:53:37,713 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 06:53:37,714 log Bad Request: /favicon.ico
+ERROR 2024-05-18 06:55:28,311 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 06:55:28,312 log Bad Request: /
+ERROR 2024-05-18 06:55:32,628 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 06:55:32,628 log Bad Request: /favicon.ico
+ERROR 2024-05-18 06:55:37,229 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 06:55:37,230 log Bad Request: /
+ERROR 2024-05-18 06:55:41,559 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 06:55:41,559 log Bad Request: /favicon.ico
+ERROR 2024-05-18 07:00:31,477 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 07:00:31,477 log Bad Request: /
+ERROR 2024-05-18 07:00:31,500 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 07:00:31,501 log Bad Request: /
+ERROR 2024-05-18 07:00:31,927 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 07:00:31,928 log Bad Request: /
+ERROR 2024-05-18 07:03:03,539 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 07:03:03,539 log Bad Request: /
+ERROR 2024-05-18 07:05:11,575 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 07:05:11,575 log Bad Request: /
+ERROR 2024-05-18 07:05:13,965 exception Invalid HTTP_HOST header: 'www.hetaoscience.com'. You may need to add 'www.hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 07:05:13,965 log Bad Request: /
+ERROR 2024-05-18 07:05:14,971 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 07:05:14,972 log Bad Request: /
+ERROR 2024-05-18 07:05:15,480 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 07:05:15,480 log Bad Request: /
+ERROR 2024-05-18 07:06:22,186 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 07:06:22,186 log Bad Request: /
+ERROR 2024-05-18 07:06:26,340 exception Invalid HTTP_HOST header: 'www.hetaoscience.com'. You may need to add 'www.hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 07:06:26,340 log Bad Request: /
+ERROR 2024-05-18 07:06:27,103 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 07:06:27,103 log Bad Request: /
+ERROR 2024-05-18 07:06:27,587 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 07:06:27,587 log Bad Request: /
+ERROR 2024-05-18 07:06:43,189 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 07:06:43,190 log Bad Request: /robots.txt
+ERROR 2024-05-18 07:06:54,706 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 07:06:54,707 log Bad Request: /
+ERROR 2024-05-18 07:13:56,680 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 07:13:56,680 log Bad Request: /

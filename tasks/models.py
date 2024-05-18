@@ -17,3 +17,12 @@ class Task(models.Model):
 
     def __str__(self):
         return self.title  # 返回任务标题作为模型的字符串表示
+
+
+class FeishuUser(models.Model):
+    user_id = models.CharField(max_length=100, unique=True)
+    name = models.CharField(max_length=100)
+    mobile = models.CharField(max_length=20)
+
+    def __str__(self):
+        return self.name

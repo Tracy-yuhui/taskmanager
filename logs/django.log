@@ -359,3 +359,43 @@ ERROR 2024-05-18 07:06:54,706 exception Invalid HTTP_HOST header: 'hetaoscience.
 WARNING 2024-05-18 07:06:54,707 log Bad Request: /
 ERROR 2024-05-18 07:13:56,680 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
 WARNING 2024-05-18 07:13:56,680 log Bad Request: /
+ERROR 2024-05-18 07:25:00,733 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 07:25:00,733 log Bad Request: /
+ERROR 2024-05-18 07:25:00,781 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 07:25:00,782 log Bad Request: /
+ERROR 2024-05-18 07:25:00,782 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 07:25:00,782 log Bad Request: /
+ERROR 2024-05-18 07:25:00,783 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 07:25:00,784 log Bad Request: /
+ERROR 2024-05-18 07:25:00,809 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 07:25:00,809 log Bad Request: /
+ERROR 2024-05-18 07:25:00,831 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 07:25:00,831 log Bad Request: /
+ERROR 2024-05-18 07:25:00,837 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 07:25:00,837 log Bad Request: /
+ERROR 2024-05-18 07:25:00,857 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 07:25:00,857 log Bad Request: /
+ERROR 2024-05-18 07:25:00,859 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 07:25:00,859 log Bad Request: /
+ERROR 2024-05-18 07:25:00,860 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 07:25:00,861 log Bad Request: /
+ERROR 2024-05-18 07:25:00,867 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 07:25:00,867 log Bad Request: /
+ERROR 2024-05-18 07:25:00,912 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 07:25:00,912 log Bad Request: /
+ERROR 2024-05-18 07:25:00,934 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 07:25:00,934 log Bad Request: /
+ERROR 2024-05-18 07:25:00,937 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 07:25:00,937 log Bad Request: /
+ERROR 2024-05-18 07:25:00,954 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 07:25:00,954 log Bad Request: /
+ERROR 2024-05-18 07:25:00,955 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 07:25:00,955 log Bad Request: /
+ERROR 2024-05-18 07:25:00,993 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 07:25:00,994 log Bad Request: /
+ERROR 2024-05-18 07:25:01,022 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 07:25:01,023 log Bad Request: /
+ERROR 2024-05-18 07:27:07,509 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 07:27:07,510 log Bad Request: /robots.txt
+ERROR 2024-05-18 07:27:08,599 exception Invalid HTTP_HOST header: 'hetaoscience.com'. You may need to add 'hetaoscience.com' to ALLOWED_HOSTS.
+WARNING 2024-05-18 07:27:08,599 log Bad Request: /
